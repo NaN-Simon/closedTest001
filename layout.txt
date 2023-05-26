@@ -1,0 +1,3 @@
+https://dev.to/davidepacilio/30-free-react-dashboard-templates-and-themes-49g4
+https://github.com/cruip/tailwind-dashboard-template
+https://www.figma.com/file/c2AJiRANQhPOPN9diD6LRP/Mosaic-(Community)?type=design&node-id=302-1270&t=d0kvG5rqz0w65TrS-0
