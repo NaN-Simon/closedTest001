@@ -26,6 +26,12 @@ const productList: IProduct[] = [
     count: 32343,
     cost: 33424,
   },
+  {
+    name: 'Bob5',
+    article: 4,
+    count: 32343,
+    cost: 33424,
+  },
 ];
 
 export default productList;

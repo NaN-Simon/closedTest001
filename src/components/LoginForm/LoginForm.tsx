@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import { Box, Dialog, TextField } from '@mui/material';
 import { FC, useState } from 'react';
 
-const LoginForm:FC = () => {
+const LoginForm: FC = () => {
   const [openPopup, setOpenPopup] = useState(false);
 
   return (
@@ -30,14 +30,12 @@ const LoginForm:FC = () => {
             flexDirection: 'column',
             rowGap: '25px',
             minWidth: 320,
-            maxWidth: 450,
+            maxWidth: 320,
             width: '100%',
-            padding: '25px',
+            padding: '5px',
           }}
         >
-          <Typography variant="h5" ml="5px">
-            Log In
-          </Typography>
+          <Typography variant="h5">Log In</Typography>
           <TextField
             id="name"
             label="Full name"

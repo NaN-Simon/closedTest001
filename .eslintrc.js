@@ -27,13 +27,10 @@ module.exports = {
         }
     },
     "rules": {
+        "object-curly-newline": ["error", { "multiline": true, "minProperties": 6 }],
         "arrow-body-style": "off",
         "react/jsx-props-no-spreading": "off",
-        "spaced-comment": ["error", "always", {
-            "line": {
-                "markers": ["#region", "#endregion", "region", "endregion"]
-            }
-        }],
+        "spaced-comment": ["error", "never", { "block": { "balanced": true } }],
         "import/prefer-default-export": 0,
         "react/function-component-definition": [
             2,
